@@ -94,4 +94,16 @@
         });
     });
 
+    // Expand or fold the abstract upon clicks
+    $('.research-abstract').on('click', function(e){
+        e.preventDefault();
+        if (($(this).find('.abstract-long').css('display') == 'none')) {
+            $(this).find('.abstract-short').css('display', 'none')
+            $(this).find('.abstract-long').css('display', 'block')
+        } else {
+            $(this).find('.abstract-short').css('display', 'block')
+            $(this).find('.abstract-long').css('display', 'none')
+        }
+    });
+
 })(jQuery);

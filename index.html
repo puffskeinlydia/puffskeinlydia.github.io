@@ -5,13 +5,13 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>My Portfolio</title>
+    <title>Lydia</title>
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 	<link rel="icon" href="favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
     <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/styles.css" rel="stylesheet">
+    <link href="scss/styles.css" rel="stylesheet">
 </head>
 
 <body>
@@ -28,19 +28,19 @@
                 <a href="#about">About</a>
             </li>
             <li>
-                <a href="#experience">Experience</a>
-            </li>
-            <li>
                 <a href="#education">Education</a>
             </li>
             <li>
-                <a href="#projects">Projects</a>
+                <a href="#experience">Experience</a>
+            </li>
+            <li>
+                <a href="#research">Research</a>
+            </li>
+            <li>
+                <a href="#projects">Data Projects</a>
             </li>
             <li>
                 <a href="#skills">Skills</a>
-            </li>
-            <li>
-                <a href="#contact">Contact</a>
             </li>
         </ul>
     </header>
@@ -48,9 +48,9 @@
 
     <div id="lead">
         <div id="lead-content">
-            <h1>Ryan Fitzgerald</h1>
-            <h2>Software Engineer</h2>
-            <a href="#" class="btn-rounded-white">Download Resume</a>
+            <h1>Jiarui (Lydia) Cao</h1>
+            <h2>Wannabe Economist</h2>
+            <a href="pdf/resume.pdf" class="btn-rounded-white" target="_blank">Download Resume</a>
         </div>
         <!-- End #lead-content -->
 
@@ -66,16 +66,38 @@
     <!-- End #lead -->
 
     <div id="about">
+        <h2 class="heading">About Me</h2>
         <div class="container">
             <div class="row">
-                <div class="col-md-4">
-                    <h2 class="heading">About Me</h2>
+                <div class="col-md-4" style="display: flex; flex-direction: column; margin: 0px 50px 20px 0px">
+                    <div style="padding: 5px 5px">
+                        <img id="headshot" src="images/headshot.jpg" alt="That's me!">
+                    </div>
                 </div>
-                <div class="col-md-8">
+                <div class="col-md-auto">
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat. Donec
-                        eu vehicula neque. Donec viverra lorem nunc, tempus euismod eros sollicitudin ut. Quisque et tincidunt libero. Donec id pharetra justo. Proin euismod lacinia dolor, eu scelerisque justo tempus pharetra. Vivamus nunc justo, finibus
-                        ut nisl sed, euismod rhoncus nulla. Proin sed magna egestas, egestas ante et, congue eros. In consequat, mauris dapibus tincidunt suscipit, ex libero aliquet diam, at maximus risus enim non leo.
+                        <br>
+                        Hello! I am an empirical research fellow at Kellogg School of Management at Northwestern University.  <br> <br>
+
+                        Before Kellogg, I studied mathematics and economics at Boston College.  <br> <br>
+
+                        I expect to enter graduate school in economics in Fall 2021. <br> <br>
+
+                        I am interested in various fields of economics, such as industrial organization,
+                        economics of innovation, and productivity. So far, I have mostly been involved in empirical research,
+                        which I am passionate about. In graduate school, I wish to expand my skill set so that
+                        I would also be able to look into research questions from an applied theoretical perspective. <br> <br>
+
+                        Besides economics, I enjoy baking in my spare time. I also love singing and drawing.
+
+                        <br>
+                        <br>
+                        Email:
+                        <a href="mailto:puffskeinlydia@gmail.com">
+                            puffskeinlydia@gmail.com
+                        </a>
+
+
                     </p>
                 </div>
             </div>
@@ -83,52 +105,194 @@
     </div>
     <!-- End #about -->
 
-    <div id="experience" class="background-alt">
+    <div id="education" class="background-alt">
+        <h2 class="heading">Education</h2>
+        <div class="education-block">
+            <h3>Boston College</h3>
+            <span class="education-date">Aug 2015 - May 2019</span>
+            <h4>Bachelor of Science, Mathematics and Economics, Magna cum Laude, Phi Beta Kappa</h4>
+            <ul>
+                <li>
+                    Awards: Dean's List First Honors, Dean's Scholar
+                </li>
+
+            </ul>
+        </div>
+        <div class="education-block">
+            <h3>Beijing No.4 High School</h3>
+            <span class="education-date">Sep 2012 - June 2015</span>
+            <h4></h4>
+        </div>
+
+        <!-- End .education-block -->
+    </div>
+    <!-- End #education -->
+
+    <div id="experience">
         <h2 class="heading">Experience</h2>
         <div id="experience-timeline">
-            <div data-date="September 2015 – September 2016">
-                <h3>Employer Name</h3>
-                <h4>Job Title</h4>
+            <div data-date="August 2019 – Present">
+                <h3>Strategy Department, Northwestern Kellogg School</h3>
+                <h4>Empirical Research Fellow</h4>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                    Provide research assistance to a group of professors at the Strategy Department
                 </p>
             </div>
 
-            <div data-date="September 2015 – September 2016">
-                <h3>Employer Name</h3>
-                <h4>Job Title</h4>
+            <div data-date="September 2017 – May 2019">
+                <h3>Department of Economics, Boston College</h3>
+                <h4>Research Assistant</h4>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                    Provided research assistance to Prof. Susanto Basu and Prof. Julie Mortimer
                 </p>
             </div>
 
-            <div data-date="September 2015 – September 2016">
-                <h3>Employer Name</h3>
-                <h4>Job Title</h4>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-                </p>
-            </div>
+<!--            <div data-date="September 2015 – September 2016">-->
+<!--                <h3>Chorus</h3>-->
+<!--                <h4>Soprano</h4>-->
+<!--                <p>-->
+<!--                    Ya la so, Tibet Plateau ~~~-->
+<!--                </p>-->
+<!--            </div>-->
+
         </div>
     </div>
     <!-- End #experience -->
 
-    <div id="education">
-        <h2 class="heading">Education</h2>
-        <div class="education-block">
-            <h3>University of Ottawa</h3>
-            <span class="education-date">Sept 2016 - Sept 2017</span>
-            <h4>Bachelor of Science in Computer Science</h4>
+
+
+    <div id="research" class="background-alt">
+        <h2 class="heading">Research</h2>
+        <div class="research-block">
+            <h3>Demand Elasticity and Product Substitutability of U.S. TV Advertising</h3>
+
+            <h4>Undergraduate Senior Thesis.
+                <br/>
+                Initial version: May 2019. Revised: September 2020</h4>
+            <div class="research-abstract">
+                <p class="abstract-short" style="display: block; color: black">
+                    Abstract: I study the demand elasticity and product substitution patterns in the
+                    U.S. television advertising market.
+                    <a style="color: rgb(69, 95, 202);"> (More...)</a>
+                </p>
+
+                <p class="abstract-long" style="display: none; color: black">
+                    Abstract: I study the demand elasticity and product substitution patterns in the
+                    U.S. television advertising market. Relying on the nested logit model of demand,
+                    I utilize an extensive dataset on the U.S. prime time TV advertising market to estimate the
+                    price elasticity of demand and uncover the substitution pattern of products in this market.
+                    My baseline specification suggests that the demand elasticity parameter is -0.42 for the 2011-2012
+                    season, and -0.88 for the 2012-2013 season. For the advertisers, telecasts provided by the same
+                    conglomerate are highly substitutable to each other relative to out-of-conglomerate telecasts.
+                    This implies that increasing the variety of telecasts will not attract many new advertisers,
+                    which could discourage the conglomerates from increasing their product diversity.
+                    <a style="color: rgb(69, 95, 202);"> (...Less)</a>
+                </p>
+            </div>
+        </div>
+        <div class="research-block">
+            <h3>Impact of Retirement on Healthcare Utilization and Health Outcomes</h3>
+
+            <h4>Class Paper for Applied Health Economics
+            <br/>
+                Initial version: May 2019</h4>
+
+            <div class="research-abstract">
+                <p class="abstract-short" style="display: block; color: black">
+                    Abstract: We study the relationship between retirement and healthcare utilization and health outcomes.
+                    <a style="color: rgb(69, 95, 202);"> (More...)</a>
+                </p>
+
+                <p class="abstract-long" style="display: none; color: black">
+                    Abstract: We study the relationship between retirement and healthcare utilization and health outcomes.
+                    The lifestyle transition to retirement may incur changes in health outcomes, and more generous
+                    medical plans included in retirement benefits might encourage people to expand their healthcare
+                    expenditure. In this paper, we explore the aggregate effects of retirement on health outcomes
+                    and healthcare expenditure through both channels. Our empirical challenge is to account for adverse
+                    selection in retirement decisions - those who are less healthy are more inclined to retire.
+                    Exploiting the discontinuity in percentage of Irish who retire at age 66, we use an instrumental
+                    variable approach to implement a fuzzy regression discontinuity design on aging data in Ireland.
+                    We find no conclusive evidence of significant effects of retirement on various health outcomes and
+                    healthcare utilization measures.
+                    <a style="color: rgb(69, 95, 202);"> (...Less)</a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div id="projects" class="background-alt">
+        <h2 class="heading">Projects</h2>
+        <div class="container">
+            <div class="row">
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/global_cases.png" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>COVID-19 Data Imputation</h3>
+                        <p>
+                            This project aims to use K-nearest-neighbors (KNN) algorithm to impute the "missing
+                            data" in the early stage of COVID-19, when both public awareness and testing capacities were insufficient.
+                            <br/> <br/>
+
+                            More specifically, we collect the John Hopkins Coronavirus Resource
+                            Center daily reported cumulative confirmed cases data from 266 country/regions or their
+                            state/provinces on the world. We use the KNN method to compare the
+                            case development histories of different locations and match locations with their
+                            nearest neighbors on the cumulative cases graph in the long run , to infer the
+                            actual numbers of COVID-19 cases in the short run when the data seem to be missing there
+                        </p>
+                        <a href="https://puffskeinlydia.github.io/COVID-19_imputation/">View Project (in progress)</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+<!--                <div class="project shadow-large">-->
+<!--                    <div class="project-image">-->
+<!--                        <img src="images/project.jpg" />-->
+<!--                    </div>-->
+<!--                    &lt;!&ndash; End .project-image &ndash;&gt;-->
+<!--                    <div class="project-info">-->
+<!--                        <h3>COVID-19 Tweets Analysis</h3>-->
+<!--                        <p>-->
+<!--                            Wait what?-->
+<!--                        </p>-->
+<!--                        <a href="#">View Project</a>-->
+<!--                    </div>-->
+<!--                    &lt;!&ndash; End .project-info &ndash;&gt;-->
+<!--                </div>-->
+                <!-- End .project -->
+            </div>
+        </div>
+    </div>
+    <!-- End #projects -->
+
+    <div id="skills">
+        <h2 class="heading">Skills</h2>
+        <ul>
+            <li>Stata</li>
+            <li>Python</li>
+            <li>Java</li>
+            <li>JavaScript</li>
+            <li>Ocaml</li>
+            <li>LaTeX</li>
+            <li>MATLAB</li>
+            <li>Excel</li>
+        </ul>
+    </div>
+    <!-- End #skills -->
+
+    <!-- An additional section that looks pretty much like education
+    <div class="optional-section background-alt">
+        <h2 class="heading">Section Name</h2>
+
+        <div class="optional-section-block">
+            <h3>Some content title</h3>
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
             </p>
-        </div>
-        <!-- End .education-block -->
-
-        <div class="education-block">
-            <h3>University of Ottawa</h3>
-            <span class="education-date">Sept 2016 - Sept 2017</span>
-            <h4>Bachelor of Science in Computer Science</h4>
             <ul>
                 <li>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -141,82 +305,12 @@
                 </li>
             </ul>
         </div>
-        <!-- End .education-block -->
-    </div>
-    <!-- End #education -->
 
-    <div id="projects" class="background-alt">
-        <h2 class="heading">Projects</h2>
-        <div class="container">
-            <div class="row">
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/project.jpg" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>Project Name Here</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-                        </p>
-                        <a href="#">View Project</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
-
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/project.jpg" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>Project Name Here</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-                        </p>
-                        <a href="#">View Project</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
-            </div>
-        </div>
     </div>
-    <!-- End #projects -->
+     End .optional-section -->
 
-    <div id="skills">
-        <h2 class="heading">Skills</h2>
-        <ul>
-            <li>JavaScript</li>
-            <li>Python</li>
-            <li>Ruby</li>
-            <li>Go</li>
-            <li>Node.js</li>
-            <li>AngularJs</li>
-            <li>React</li>
-            <li>Elixir</li>
-            <li>Java</li>
-            <li>C</li>
-            <li>C#</li>
-            <li>C++</li>
-            <li>Ruby on Rails</li>
-            <li>JavaScript</li>
-            <li>Python</li>
-            <li>Ruby</li>
-            <li>Go</li>
-            <li>Node.js</li>
-            <li>AngularJs</li>
-            <li>React</li>
-            <li>Elixir</li>
-            <li>Java</li>
-            <li>C</li>
-            <li>C#</li>
-            <li>C++</li>
-            <li>Ruby on Rails</li>
-        </ul>
-    </div>
-    <!-- End #skills -->
+    <!--
+    Contact session. We won't be using it
 
     <div id="contact">
         <h2>Get in Touch</h2>
@@ -228,16 +322,16 @@
                 <button type="submit">Send</button>
             </form>
         </div>
-        <!-- End #contact-form -->
     </div>
-    <!-- End #contact -->
+
+    -->
 
     <footer>
         <div class="container">
             <div class="row">
                 <div class="col-sm-5 copyright">
                     <p>
-                        Copyright &copy; 2020 YOUR NAME
+                        Copyright &copy; 2020 Jiarui Cao
                     </p>
                 </div>
                 <div class="col-sm-2 top">
@@ -248,22 +342,7 @@
                 <div class="col-sm-5 social">
                     <ul>
                         <li>
-                            <a href="https://github.com/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://stackoverflow.com/" target="_blank"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://linkedin.com/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                            <a href="https://www.linkedin.com/in/jiaruilydiacao" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                         </li>
                     </ul>
                 </div>
@@ -273,7 +352,7 @@
     <!-- End footer -->
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="js/scripts.min.js"></script>
+    <script src="js/scripts.js"></script>
 </body>
 
 </html>
